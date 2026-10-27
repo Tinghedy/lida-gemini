@@ -3,6 +3,7 @@
 用 Google Gemini（也可以換成 Claude）跑 Microsoft 的 [LIDA](https://github.com/microsoft/lida)：資料 → 摘要 → 分析目標 → 繪圖程式 → 圖 → 修改／解釋／評分。
 
 - [try_lida.ipynb](try_lida.ipynb)：試用筆記本，從上往下一格一格執行
+- [class_demo.ipynb](class_demo.ipynb)：課堂現場用：讀取 [Mini LIDA](https://github.com/Tinghedy/mini-lida) 收集的全班資料（螢幕時間、睡眠、鬧鐘），一路跑到改圖和自我評分；`class_sleep_data_sample.csv` 是排練用假資料
 - [lida_result.html](lida_result.html)：一次完整執行的結果（程式碼、輸出、圖）
 - [gemini_textgen.py](gemini_textgen.py) / [claude_textgen.py](claude_textgen.py)：讓 LIDA 改接 Gemini / Claude 的轉接層
 
