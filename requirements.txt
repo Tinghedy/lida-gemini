@@ -1,0 +1,6 @@
+lida==0.0.14
+anthropic
+google-genai
+python-dotenv
+ipykernel
+pandas<3   # LIDA's summarizer predates pandas 3 and misreads text columns under it
